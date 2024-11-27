@@ -11,6 +11,9 @@
 
   position: relative;
 
+  box-sizing: border-box;
+
+
   & input {
     position: absolute;
     width: 100%;
@@ -27,6 +30,7 @@
     border-width: 2px;
     border-color: var(--stroke-highlight);
     background-color: var(--surface-secondary);
+    margin-bottom: -2px;
 
     & p {
       color: var(--text-tertiary);
